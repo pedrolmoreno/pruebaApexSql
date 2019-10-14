@@ -11,7 +11,8 @@ CREATE TABLE [dbo].[Consultorios] (
 		[Estado]          [int] NULL,
 		[Pais]            [int] NULL,
 		[Telefono]        [varchar](100) COLLATE Modern_Spanish_CI_AS NULL,
-		[prueba]          [int] NULL
+		[prueba]          [int] NULL,
+		[NuevoCambio]     [int] NULL
 ) ON [PRIMARY]
 GO
 ALTER TABLE [dbo].[Consultorios] SET (LOCK_ESCALATION = TABLE)
