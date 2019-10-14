@@ -1,7 +1,7 @@
 SET ANSI_NULLS ON
 SET QUOTED_IDENTIFIER ON
 GO
-Create procedure uSpInsertMedicos
+CREATE procedure uSpInsertMedicos
 (
 @Nombres	varchar(60),
 @Apellidos	varchar(60),
@@ -19,7 +19,19 @@ Create procedure uSpInsertMedicos
 )
 as
 begin
-insert into Medicos
+insert into Medicos(Nombres,
+Apellidos,
+Cedula,
+FechaNacimiento,
+Direccion,
+Ciudad,
+Estado,
+Pais,
+Nacionalidad,
+Sexo,
+Telefono,
+IdConsultorio,
+NuevoCambio)
 values(@Nombres,
 @Apellidos,
 @Cedula,
