@@ -3,5 +3,5 @@
   <ServerVersion>Sql2017</ServerVersion>
   <ServerName>DESKTOP-TV756IS</ServerName>
   <DatabaseName>BDConsultorio</DatabaseName>
-  <DatabaseInformation Version="3" />
+  <DatabaseInformation Version="4" />
 </DatabaseSettings>
