@@ -15,7 +15,8 @@ CREATE TABLE [dbo].[Medicos] (
 		[Nacionalidad]        [int] NULL,
 		[Sexo]                [char](1) COLLATE Modern_Spanish_CI_AS NULL,
 		[Telefono]            [varchar](100) COLLATE Modern_Spanish_CI_AS NULL,
-		[IdConsultorio]       [int] NULL
+		[IdConsultorio]       [int] NULL,
+		[NuevoCambio]         [int] NULL
 ) ON [PRIMARY]
 GO
 ALTER TABLE [dbo].[Medicos] SET (LOCK_ESCALATION = TABLE)
